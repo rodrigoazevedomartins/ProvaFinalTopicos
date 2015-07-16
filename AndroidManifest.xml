@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.tads.ifnmg.provafinalii"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="br.edu.ifnmg.tads.provafinalii.MainActivity"
+            android:label="Prova Final" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.edu.ifnmg.tads.provafinalii.NovoPedido"
+            android:label="Novo Pedido" >
+        </activity>
+        <activity
+            android:name="br.edu.ifnmg.tads.provafinalii.ListarPedidos"
+            android:label="Lista de Pedidos" >
+        </activity>
+    </application>
+
+</manifest>
